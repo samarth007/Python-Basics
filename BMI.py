@@ -8,7 +8,7 @@ def bmi():
   if Wt>=150:
       print("enter valid weight")
       return 0
-  b=Wt/(Ht*Ht)
+  b=Wt/(Ht**2)
   print('BMI : ',b)
 
   if b<=18.5:

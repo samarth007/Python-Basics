@@ -31,6 +31,7 @@ def ConvertList(l):
  print("Original Values : ",l)
  r=[]
  for i in l:
+  print(i)
   r.append(list(i.keys()))
   r.append(list(i.values()))
  print(r)

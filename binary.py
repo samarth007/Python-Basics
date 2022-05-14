@@ -18,7 +18,7 @@ def binary_search(number_list,number_find):
     return -1
 
 num_list=[12,23,37,39,45,56,59,74,84,99,100]
-num_find=100
+num_find=-1
 index=binary_search(num_list,num_find)
 print("Index of {0} is {1}".format(num_find,index))
 

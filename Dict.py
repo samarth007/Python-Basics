@@ -37,7 +37,7 @@ def extract(l):
     sum=0
     for i in l.values():
         sum=sum+i
-    avg=sum/len(l)
+    avg=sum//len(l)
     print("Average of the values : ",avg)
 extract({'gfg':4,'is':5,'best':7})
 

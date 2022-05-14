@@ -17,6 +17,6 @@ class Students:
     def info_class():
         print("Static method")
 s=Students(12,34,45)
-print(s.avg())
+print(s.info_class())
 print(Students.info())
 Students.info_class()
