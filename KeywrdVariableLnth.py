@@ -3,9 +3,9 @@ def employee(name, **data):
     print(data)
     for i, j in data.items():
         print(i, j)
+                         
 
-
-employee("test", age=28, city='bnglr', mob=98765432)
+employee(65,age=28, city='bnglr', mob=98765432)
 
 print('-------------------------------------------')
 
@@ -26,10 +26,10 @@ def removeSub(s):
     print("Original String is : ",s)
     remove = ['best', 'all']
     for i in remove:
-        s = s.replace(i, '')
+        s = s.replace(i,'')
     print('After removing : ',s)
 
-(removeSub("gfg is best for all geeks"))
+removeSub("gfg is best for all geeks")
 
 print('----------------------------------------------')
 
