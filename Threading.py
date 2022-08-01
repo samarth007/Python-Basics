@@ -1,18 +1,17 @@
 from threading import Thread,Lock
 import time
 
-db_value=0
+db_value=1
 
 def increase(lock):
   global db_value
+  
   lock.acquire()
   local_val=db_value
-  lock.release()
   local_val+=1
   time.sleep(0.1)
-  
   db_value=local_val
-  
+  lock.release()
 
 if __name__== "__main__":
     print('Start value',db_value)
