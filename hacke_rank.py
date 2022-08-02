@@ -13,6 +13,9 @@ for i in lst:
       lst1.append(i[0])
 for j in sorted(lst1):
     print(j)
+
+
+    
     #
     # n = int(input())
     # student_marks = {}
