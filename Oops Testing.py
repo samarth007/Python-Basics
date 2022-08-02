@@ -18,7 +18,7 @@ class Computer:
 c1=Computer()
 c2=Computer()
 
-c1.update()
+# c1.update()
 if c1.compare(c2):
     print("same")
 else:

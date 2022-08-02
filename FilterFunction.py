@@ -7,7 +7,7 @@ def even(a):
 
 l=[1,2,3,4,5,6,7,8,0]
 
-print(tuple(filter(even,l)))   #filter functions return True values
+print(list(filter(even,l))) #filter functions return True values
 
 #OR
 #using lamba function

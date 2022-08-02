@@ -38,7 +38,7 @@ def StrNum(s):
 
     return flag_n and flag_l
 
-print("Is Text is AlphaNumeric :" + str(StrNum("hi5")))
+print("Is Text is AlphaNumeric :" + str(StrNum("Hi55")))
 
 print("-------------------------------------------")
 
@@ -50,3 +50,5 @@ def natural(n):
         c=c+1
     return i
 print(natural(10))
+
+

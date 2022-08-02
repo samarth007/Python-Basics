@@ -5,7 +5,7 @@ def test(t,*args,**kwargs):
 n=123
 ar=["sas",'wq',12,'klk',78]
 kw={1:'one',2:'two',4:'four'}
-test(n,ar,kw)
+test(n,ar,kw,rs=6)
 
 print('--------------------------------------')
 
