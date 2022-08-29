@@ -14,6 +14,6 @@ def bubble_sort(elements):
           break
     print(elements)
 
-
-num_list=[23,42,1,12,22,45,12,7,2]
+num_list=[2,3,6,9,12,20]
+# num_list=[23,42,1,12,22,45,12,7,2]
 bubble_sort(num_list)

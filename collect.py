@@ -3,6 +3,6 @@ from collections import Counter
 
 val='How are you doing ? JosH'
 cts=Counter(val)
-# print(cts.items())
+print(cts.items())
 # print(cts.values())
-print(cts.most_common(2))
+print(cts.most_common(3))

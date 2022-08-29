@@ -24,3 +24,5 @@ def bitwise_add(x,y):
 # print(a&b)
 # print(a|b)
 
+print(bin(a))
+print(bin(b))

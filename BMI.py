@@ -1,10 +1,10 @@
 
 def bmi():
-  Ht =float(input("enter height in m"))
+  Ht =float(input("enter height in m").strip())
   if Ht>2:
       print("enter valid height")
       return 0
-  Wt = float(input("enter weight in kg"))
+  Wt = float(input("enter weight in kg").strip())
   if Wt>=150:
       print("enter valid weight")
       return 0

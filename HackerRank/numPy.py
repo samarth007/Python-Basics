@@ -1,19 +1,19 @@
 import numpy as np
 
-# N,M=map(int,input().strip().split())
+N,M=map(int,input().strip().split())
 
-# matrix=[]
-# for i in range(N):
-#     a=list(map(int,input().split()))
-#     matrix.append(a)
+matrix=[]
+for i in range(N):
+    a=list(map(int,input().split()))
+    matrix.append(a)
     
-# arr=np.array(matrix)
+arr=np.array(matrix)
 
-# arr_min=np.min(arr,axis=1)
-# arr_max=np.max(arr_min)
+arr_min=np.min(arr,axis=1)
+arr_max=np.max(arr_min)
 
-# # print(arr_min)
-# print(arr_max)
+print(arr_min)
+print(arr_max)
 
 
 # n_rows=int(input())
