@@ -4,14 +4,14 @@ def fib(n):
     n3=0
     if n<0:
         print("enter valid number")
-        return
+        return -1
     while n3<n:
         print(n1,end=' ')
         n4=n1+n2
         n1=n2
         n2=n4
         n3=n3+1
-fib(5)
+fib(6)
 print()
 print("----------------------------------------")
 #Prints string with even length

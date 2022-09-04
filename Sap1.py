@@ -7,8 +7,8 @@ class A2B:
 
 
 class B2C(A2B):
-    def __init__(self,m,n,q):
-       super().__init__(m,n)
+    def __init__(self,q,*args):
+       super().__init__(*args)
        self.q=q
 
     def up(self):

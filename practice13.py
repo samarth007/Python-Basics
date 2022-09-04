@@ -2,7 +2,8 @@
 fname='test'
 
 for i in fname[::-1]:
-    print(i)
+    print(i,end='')
+print()
 
 print('--------------------------')
 
