@@ -1,17 +1,17 @@
 
 
-def select(ar):
-    
-    for i in range(len(ar)):
-        minpos=i
-        for j in range(i+1,len(ar)):
-            if ar[j]< ar[minpos]:
-                minpos=j
+def SelectionSort(arr):
+    n=len(arr)
+    for i in range(0,n):
+        min_idx=i
+        for j in range(i+1,n):
+            if arr[j] < arr[min_idx]:
+                min_idx=j
+        
+        #Swapping
+        arr[i],arr[min_idx]=arr[min_idx],arr[i]
+    return arr            
 
-        temp=ar[i]
-        ar[i]=arr[minpos]
-        ar[minpos]=temp                
-
-arr=[3,6,1,2,9,4,2,20]
-select(arr)
-print(arr)
+l=[23,42,41,7,12,44,11,4,5,1,19]
+result= SelectionSort(l)
+print(l)
