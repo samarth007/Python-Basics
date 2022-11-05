@@ -13,7 +13,7 @@ lst=[1,2,3,4]
 lst1=lst.copy()
 lst1[2]=7
 print('Lst',lst)
-print('Lst',lst1)
+print('Lst1',lst1)
 
 
 #In case of multi-dimensional list if we change elements of the list in that case changes are reflected in both the list object
