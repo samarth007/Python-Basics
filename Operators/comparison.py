@@ -9,7 +9,7 @@ print(ss<sd)
 
 ad="Python"
 aa=sorted(ad)
-print(aa)    
+print(aa) 
 
 sq='hello'
 sa='hello'

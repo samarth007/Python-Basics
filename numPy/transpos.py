@@ -15,4 +15,4 @@ import numpy as np
 
 
 l=map(int,input().split())
-print(list(l))    
+print(l)    

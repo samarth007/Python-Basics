@@ -1,4 +1,5 @@
 import re
+
 def fun(s):
     pattern = re.compile(r"^([a-zA-Z0-9\-_]+)\@([a-zA-Z0-9]+)\.([a-zA-Z]{,3})$")
     pattern=re.compile(r"^([a-zA-Z0-9\-_]+)\@([a-zA-Z0-9]+)\.([a-zA-Z]{,3})$")
@@ -11,4 +12,4 @@ def fun(s):
         return False
 
 
-fun('samarthakrao@gmail.c8m')
+fun('samarthakrao@gmail.com')

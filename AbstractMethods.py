@@ -7,13 +7,13 @@ class shape(ABC):
 
     @abstractmethod
     def area(self):
-        print("abstract method")
+        pass
 
     def length(self):
         print('length_shape')
 
 
-class square(shape):   #if we are inherting abstract method then we need to override it in sub class
+class square(shape):   #if we are inherting abstract class then we need to override it's abstract mth
     def __init__(self):
         print('square class')
 

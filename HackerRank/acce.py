@@ -19,3 +19,12 @@ l=[1,3,45,5]
 l1=[1,2,3]
 print(l1+l)
 print(not x or y or not y and x)
+
+a=10
+b=20
+c=10
+print(a is not c)
+
+
+d=map(float,input().split())
+print(*d)

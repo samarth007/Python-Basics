@@ -15,6 +15,9 @@ arr_max=np.max(arr_min)
 print(arr_min)
 print(arr_max)
 
+arr=np.asarray([[2,3,1],[4,1,4]])
+print(arr.min(axis=0))
+
 
 # n_rows=int(input())
 # n_columns=int(input())

@@ -3,8 +3,7 @@ class M():
       self.__s=100
       self.r=b
 
-m=M(10)
-print(m._M__s)
+
 
 class N(M):
     def __init__(self,q,w):

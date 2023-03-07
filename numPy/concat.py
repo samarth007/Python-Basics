@@ -1,7 +1,7 @@
 import numpy
 
-n_rows,m_rows,p_col=map(int,input().strip().split())
-
+# n_rows,m_rows,p_col=map(int,input().strip().split())
+n_rows,m_rows=3,3
 arr1=[]
 arr2=[]
 

@@ -15,10 +15,10 @@ print(swap([20,30,11,15]))
 def swap2(lis):
     size=len(lis)
     lis1=[]
-    for i in range(0,size):
-      lis1.append(lis[size-1-i])
+    for i in range(size-1,-1,-1):
+      lis1.append(lis[i])
 
-    print(lis1)
+    print(*lis1)
 
 swap2([10,20,30,40])
 

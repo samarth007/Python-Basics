@@ -1,4 +1,4 @@
-
+ 
 #program to print a list of tuple in that first element is number and second is the cube of first one
 
 def cube(lis):

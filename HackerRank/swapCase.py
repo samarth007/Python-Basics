@@ -26,7 +26,7 @@ for i in range(len(l)):
     if i==2:
         l[i]='s'
         break
-print(l)        
+print(''.join(l))        
 
 #####################################################################
 #Number of times substring present in original string

@@ -10,3 +10,5 @@ for i in range(0,10):
         logging.critical("Divisible by 3")
     else:
         logging.error("Other than 2 and 3")
+
+

@@ -30,4 +30,4 @@ def fartest(arr,l):
 
 arr=[-2,-2,8,5,5,1,5,6]
 l=len(arr)-1
-print(closest(arr,l))
+print(fartest(arr,l))

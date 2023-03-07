@@ -8,3 +8,7 @@ class over:
 o=over()
 print(o.a(2,3))  #Method overloading is not supported in python
                  # it will pick the latest method
+
+
+s='add'
+print(eval(s))                 

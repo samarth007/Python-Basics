@@ -13,4 +13,20 @@ def main_wel(func):
 def child():
     print('Child function')
 
-print(child())
+child()
+# -------------------------------------------------------------------------------------
+class Test:
+  def __init__(self,a):
+    self.a=a
+  
+
+  def __add__(self,b):
+    return self.a + b.a
+  
+  def __mul__(self,b):
+    return self.a * b.a
+
+
+t=Test(2)
+s=Test(3)
+print(t*s)

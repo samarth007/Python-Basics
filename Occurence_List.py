@@ -13,10 +13,11 @@ def occurence(lst):
 
 lst=[23,24,24,23,10,8,11,10,23,10,24,10,8]
 d=occurence(lst)
-
-a=sorted(d.items(),key=lambda x:x[1],reverse=True)
-for i in a:
-    print(i[0],end=' ')
+print(d)
+a=sorted(d.keys(),reverse=True)
+print(a)
+# for i in a:
+#     print(i[0],end=' ')
 
 
 

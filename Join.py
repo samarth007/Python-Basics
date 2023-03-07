@@ -12,5 +12,5 @@ wordString="seven four one"
 #print(res)
 
 for i in wordString.split():
-    res="".join(dit[i])
+    res=" ".join(dit[i])
     print(res,end='')

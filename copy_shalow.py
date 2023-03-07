@@ -19,7 +19,7 @@ print('Lst1',lst1)
 #In case of multi-dimensional list if we change elements of the list in that case changes are reflected in both the list object
 ll=[[2,3,4,5,],[4,5,6,7]]
 ll1=ll.copy()
-ll1.insert(2,[6,3,8,9])
+# ll1.insert(2,[6,3,8,9])
 ll1[1][0]=70
 print('LL',ll)
 print('LL1',ll1)
